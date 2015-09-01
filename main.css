@@ -39,21 +39,76 @@
 
 /*BarChart:*/
 
+.BarChart tr {
+	width: 100%;
+	/*text-align: right;*/
+}
+.BarChart th {
+	padding: 5px;
+	padding-right: 10px;
+	text-align: right;
+	display: inline-block;
+	width: 90px;
+}
+
 .BarChart td {
 	width: 100%;
 	/*text-align: right;*/
 }
 
-.BarChart th {
-	padding-right: 30px;
-	text-align: right;
-}
-
 .BarChart div {
-	background-color: blue;
+	padding: 3px;
+	background-color: #6699FF;
 	color: white;
 }
 
-.barChart td, .barChart tr {
-	border-bottom: none;
+/*LightBox*/
+
+.container {
+	/*position: fixed;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	height: 100vh;*/
+	background-color: rgba(89,89,89,0.8);
+	padding: 100px;
+
 }
+
+.lightbox {
+	/*position: relative;
+	top: 50%;
+	transform: translateY(-75%);*/
+	border-radius: 15px;
+	background-color: white;
+	padding: 25px;
+	overflow: auto;
+}
+
+.button {
+	float: right;
+	width: 100px;
+	padding: 10px;
+	border-radius: 5px;
+	background-color: #ED818A;
+	text-align: center;
+}
+
+.button a {
+	color: white;
+	text-decoration: none;
+}
+
+
+/*Media Block*/
+
+img {
+	Float: left;
+	margin-right: 10px;
+}
+
+.MediaBlock {
+	margin-left: 60px;
+}
+
